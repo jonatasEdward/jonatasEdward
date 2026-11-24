@@ -12,12 +12,15 @@ Gosto de sistemas que continuam fáceis de mudar depois de um ano em produção:
 App mobile e API que conectam doadores a pontos de coleta. Expo com TypeScript, Spring Boot, PostgreSQL, JWT, Testcontainers e deploy com CI.
 [Ver a demo](https://jonatasedward.github.io/instituto-mao-amiga/)
 
+**[notification-service](https://github.com/jonatasEdward/notification-service)**
+Serviço orientado a eventos que transforma eventos do Mão Amiga em avisos: consumidor Kafka idempotente com retry e DLT, Transactional Outbox no produtor, JWT RS256 validado por JWKS, um trace OpenTelemetry atravessando os dois serviços e teste de carga com k6. Documentado em inglês, com ADRs.
+
 **[hexagonal-architecture-template](https://github.com/jonatasEdward/hexagonal-architecture-template)**
 Projeto base em Spring Boot com arquitetura hexagonal, em que as regras de dependência entre camadas são verificadas por teste com ArchUnit.
 
 ### Stack
 
-Java · Spring Boot · TypeScript · React · React Native (Expo) · PostgreSQL · Docker · GitHub Actions
+Java · Spring Boot · Kafka · TypeScript · React · React Native (Expo) · PostgreSQL · Docker · OpenTelemetry · GitHub Actions
 
 ### Material de aula
 
@@ -36,6 +39,9 @@ I care about systems that are still easy to change after a year in production: a
 **[Instituto Mão Amiga](https://github.com/jonatasEdward/instituto-mao-amiga)**
 Mobile app and API that connect donors to donation drop-off points. Expo with TypeScript, Spring Boot, PostgreSQL, JWT, Testcontainers, and CI-driven deployment.
 [Try the demo](https://jonatasedward.github.io/instituto-mao-amiga/)
+
+**[notification-service](https://github.com/jonatasEdward/notification-service)**
+Event-driven service that turns Mão Amiga's domain events into notifications: idempotent Kafka consumer with retries and a dead-letter topic, transactional outbox on the producer, RS256 tokens validated through JWKS, one OpenTelemetry trace across both services, and a k6 load test with published results. Documented with ADRs.
 
 **[hexagonal-architecture-template](https://github.com/jonatasEdward/hexagonal-architecture-template)**
 Spring Boot starter built on hexagonal architecture, with layer dependency rules enforced by ArchUnit tests.
