@@ -1,5 +1,7 @@
 # Jonatas Edward
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jonatas--edward-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonatas-edward/)
+
 Tech Lead e professor de engenharia de software em Goiânia. Trabalho principalmente com Java, Spring Boot e React, e dou aulas de Construção de Software e Gerência de Configuração na Faculdade SENAI FATESG.
 
 Gosto de sistemas que continuam fáceis de mudar depois de um ano em produção: arquitetura que se explica sozinha, testes que pegam o erro antes do usuário e decisões técnicas escritas, com o motivo junto.
